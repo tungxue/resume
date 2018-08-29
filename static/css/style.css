@@ -169,9 +169,20 @@ progress::-moz-progress-value {
     margin-bottom: 20px;
 }
 
+.head-portrait{
+    margin-top: 20px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.head-portrait img{
+    width: 200px;
+}
+
 .weixin{
     margin-top: 20px;
-    background-color: #e0eaf0;   
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -187,26 +198,12 @@ progress::-moz-progress-value {
     width: 120px;
 }
 
-.portrait {
-    margin: 0 auto;
-    margin-top:20px;
-    margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
-    background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
-    width:160px;
-    height:160px;
-}
-
-
 .container {
     position: relative;
     margin: 0 auto;
 
     width: 1050px;
-    height: 1550px;
+    height: 2550px;
     background-color: white;
 
 }
